@@ -28,12 +28,17 @@
                             <a class="nav-link active" href="#produtos">Produtos</a>
                         </li> 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Quem somos</a>
+                            <a class="nav-link active" href="#quemsomos">Quem somos</a>
                         </li> 
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Parceiros</a>
+                            <a class="nav-link active" href="#contato">Contato</a>
                         </li> 
-                        
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            Carrinho
+                            </a>
+                        </li>
                     </ul>
                     <form class="d-flex justify-content-center" >
                         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="search">
@@ -44,9 +49,9 @@
         </nav>   
     </header>
 
-    <section class="container-fluid marging text-center" id= "promotion" style="background-color: red;">
+    <section class="container-fluid margin text-center" id= "promotion"  >
         <h3>Promoções</h3>
-        <div class="fotos container-fluid" >
+        <div class=" margin fotos container-fluid" >
             <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,33 +96,94 @@
     <section id="produtos">
       <div class="margin text-center">
         <h3>Produtos</h3>
-        <div class="container">
+        <div class="container margin">
             <div class="row">
                 <div class="col-lg-3">
-                    <h5>Albumina</h5>                                       </p>
+                    <h5>Albumina</h5>                                    
                     <img src="img/albumina.png">
-                    <p>R$50,00</p>
+                    <h3>R$50,00</h3>
+                    <button role="button" class="botao margin" onclick="">
+                        <i class="fas fa-cart-plus"></i>
+                        ADICIONAR AO CARRINHO
+                    </button>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    
                 </div>
                <div class="col-lg-3">
                     <h5>Whey Protein</h5>
                     <img src="img/whey.png">
-                    <p>R$70,00</p>
+                    <h3>R$70,00</h3>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-cart-plus"></i>
+                        ADICIONAR AO CARRINHO
+                    </button>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
                 <div class="col-lg-3">
                     <h5>Max Titanium</h5>
                     <img src="img/max titanium.png">
-                    <p>R$80,00</p>
+                    <h3>R$80,00</h3>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-cart-plus"></i>
+                        ADICIONAR AO CARRINHO
+                    </button>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
                 <div class="col-lg-3">
-                    <h5>Shakera</h5>                                         </p>
+                    <h5>Garrafa</h5>                                     
                     <img src="img/shakeira.png" >
-                    <p>R$20,00</p>
+                    <h3>R$20,00</h3>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-cart-plus"></i>
+                        ADICIONAR AO CARRINHO
+                    </button>
+                    <button role="button" class="botao" onclick="">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
         </div>
       </div>
     </section>
 
+    <section id="quemsomos">
+        <div class="containerp">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/growth1.png">
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/mt.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="containerq">
+            <p>Olá, somos uma pequena empresa em busca de crescimento,onde nossa função é ter o melhor atendimento para que o nosso cliente possa sair FELIZ e SATISFEITO, para que possa voltar sempre! </p>
+        </div>
+    </section>
+
+
+    <footer id="contato">
+        <div class="contato text-center">
+            <p>Entre em contato conosco pelo nosso e-mail ou pelo telefone:</p>
+            <p>E-mail:
+                <a href="jvwc14@gmail.com">jvwc14@gmail.com</a>
+            </p>
+            <p>Telefone:(17)99145-9962</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/be90f4c134.js" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>

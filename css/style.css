@@ -1,8 +1,12 @@
 
 body{
   background-color: lightgrey;
- 
+  ;
 
+}
+
+.carousel-inner{
+  padding:;
 }
 
 .margin{
@@ -13,7 +17,7 @@ body{
 #promotion{
   margin: 5px;
   font-family: cursive;
-  box-sizing: content-box;
+  padding:0
 
 }
 .fotos{
@@ -22,3 +26,34 @@ body{
   margin-bottom: 10px;
 }
 
+.botao{
+  background-color: gray;
+  color: white;
+  border:none;
+  padding: 10px 20px;
+  cursor:pointer;
+  transition: 1s;
+  margin: 1px;
+}
+
+.botao:hover{
+  background-color: white;
+  color:red;
+}
+
+section .containerq{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.containerp{
+  background-color: black;
+  padding-top: 10px;
+}
+
+.contato{
+  background-color: black;
+  color: white;
+  font-size: 13px;
+}
