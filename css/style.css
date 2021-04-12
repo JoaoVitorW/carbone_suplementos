@@ -37,7 +37,11 @@ section .containerq{
 
 .containerp{
   background-color: black;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
   padding-top: 10px;
+  align-items: center;
 }
 
 .contato{
@@ -48,4 +52,31 @@ section .containerq{
 
 .carousel-caption{
   color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width:350px){
+  body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+   
+  .containerp{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 70px;    
+  }
+
+  .col-lg-6{
+    padding-top: 20px;
+  }
+
+  .col-lg-3{
+    padding-top: 25px;
+  }
 }
