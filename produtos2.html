@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Carbone Suplementos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(64, 75, 75);">
+            <div class="container-fluid shadow-lg p-3 mb-3 bg-body rounded">
+            <a href="#" class="navbar-brand">
+            <img src="img/logo.png" width="100" height="100" onclick="home()">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#promotion">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#produtos">Produtos</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#quemsomos">Quem somos</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contato">Contato</a>
+                        </li> 
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            Carrinho
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex justify-content-center" >
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="search">
+                        <button class="btn btn-outline-success" type="submite">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>   
+    </header>
+
+    <section id="produtos">
+          <div class="container margin">
+              <div class="row">
+                  <div class="col-lg-3">
+                      <h5>Malto Dextrin</h5>                                    
+                      <img src="img/malto.jpg">
+                      <h3>R$50,00</h3>
+                      <button role="button" class="botao margin" onclick="">
+                          <i class="fas fa-cart-plus"></i>
+                          ADICIONAR AO CARRINHO
+                      </button>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-info-circle"></i>
+                          MAIS INFORMAÇÕES
+                      </button>
+                      
+                  </div>
+                 <div class="col-lg-3">
+                      <h5>Combo 1</h5>
+                      <img src="img/combo1.png">
+                      <h3>R$70,00</h3>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-cart-plus"></i>
+                          ADICIONAR AO CARRINHO
+                      </button>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-info-circle"></i>
+                          MAIS INFORMAÇÕES
+                      </button>
+                  </div>
+                  <div class="col-lg-3">
+                      <h5>Combo 2</h5>
+                      <img src="img/combo2.png">
+                      <h3>R$80,00</h3>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-cart-plus"></i>
+                          ADICIONAR AO CARRINHO
+                      </button>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-info-circle"></i>
+                          MAIS INFORMAÇÕES
+                      </button>
+                  </div>
+                  <div class="col-lg-3">
+                      <h5>Garrafa</h5>                                     
+                      <img src="img/shakeira.png" >
+                      <h3>R$20,00</h3>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-cart-plus"></i>
+                          ADICIONAR AO CARRINHO
+                      </button>
+                      <button role="button" class="botao" onclick="">
+                          <i class="fas fa-info-circle"></i>
+                          MAIS INFORMAÇÕES
+                      </button>
+                  </div>
+              </div>
+          </div>
+
+          <nav aria-label="Page navigation example ">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" onclick="pag1()" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#" onclick="pag1()">1</a></li>
+              <li class="page-item"><a class="page-link" href="#" onclick="pag2()">2</a></li>
+              <li class="page-item"><a class="page-link" href="#" onclick="pag2()" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </section>
+
+        <section id="quemsomos">
+            <div class="containerp container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="img/growth1.png">
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/mt.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="containerq text-center">
+                <p>Olá, somos uma empresa em busca de crescimento, onde nossa função é ter o melhor atendimento para que o nosso cliente possa sair FELIZ e SATISFEITO! </p>
+            </div>
+        </section>
+    
+    
+        <footer id="contato">
+            <div class="contato text-center">
+                <p>Entre em contato conosco pelo nosso e-mail ou pelo telefone:</p>
+                <p>E-mail:
+                    <a href="jvwc14@gmail.com">jvwc14@gmail.com</a>
+                </p>
+                <p>Telefone:(17)99145-9962</p>
+            </div>
+        </footer>
+
+
+        <script src="js/main.js"></script>
+        <script src="https://kit.fontawesome.com/be90f4c134.js" crossorigin="anonymous"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+    </body>   
+    
+</html>          
